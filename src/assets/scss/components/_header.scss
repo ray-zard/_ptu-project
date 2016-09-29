@@ -1,4 +1,7 @@
-.logo-txt {
-	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-	font-size: 42px;
+.logo {
+	position: relative;
+	height: 100px;
+}
+.logo__img {
+	@include vertical-center;
 }
