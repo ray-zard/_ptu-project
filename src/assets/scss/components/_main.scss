@@ -1,3 +1,23 @@
+$wight: #fffff;
 $light-green: #39b54a;
 $medium-green: #009245;
 $dark-green: #006837;
+
+.light-green {
+  background-color: $light-green;
+}
+.medium-green {
+  background-color: $medium-green;
+}
+.dark-green {
+  background-color: $dark-green;
+}
+.light-gray {
+  background-color: $light-gray;
+}
+.medium-gray {
+  background-color: $medium-gray;
+}
+.dark-gray {
+  background-color: $dark-gray;
+}
