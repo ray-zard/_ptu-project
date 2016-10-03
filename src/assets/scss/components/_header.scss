@@ -6,5 +6,20 @@
 	a {
 		color: $white;
 		text-transform: uppercase;
+		& > i {
+			display: block;
+		}
+		&.light-green:hover {
+			background-color: scale-color($light-green, $lightness: -10%);
+		}
+		&.medium-green:hover {
+			background-color: scale-color($medium-green, $lightness: -10%);
+		}
+		&.dark-green:hover {
+			background-color: scale-color($dark-green, $lightness: -10%);
+		}
+		&.medium-gray:hover {
+			background-color: scale-color($medium-gray, $lightness: -10%);
+		}
 	}
 }
