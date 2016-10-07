@@ -1,3 +1,6 @@
+
+// Основные цвета сайта
+
 $wight: #fff;
 $light-green: #39b54a;
 $medium-green: #009245;
@@ -21,3 +24,37 @@ $dark-green: #006837;
 .dark-gray {
   background-color: $dark-gray;
 }
+
+// (/end) Основные цвета сайта
+
+// Модификаторы цвета
+
+.light-green.hover-effect:hover {
+	background-color: scale-color($light-green, $lightness: -10%);
+}
+.light-green.hover-effect:active {
+  background-color: $light-green;
+}
+
+.medium-green.hover-effect:hover {
+	background-color: scale-color($medium-green, $lightness: -10%);
+}
+.medium-green.hover-effect:active {
+  background-color: $medium-green;
+}
+
+.dark-green.hover-effect:hover {
+	background-color: scale-color($dark-green, $lightness: -10%);
+}
+.dark-green.hover-effect:active {
+  background-color: $dark-green;
+}
+
+.medium-gray.hover-effect:hover {
+	background-color: scale-color($medium-gray, $lightness: -10%);
+}
+.medium-gray.hover-effect:active {
+  background-color: $medium-gray;
+}
+
+// (/end) Модификаторы цвета
