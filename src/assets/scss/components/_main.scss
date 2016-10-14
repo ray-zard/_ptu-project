@@ -31,30 +31,38 @@ $dark-green: #006837;
 
 .light-green.hover-effect:hover {
 	background-color: scale-color($light-green, $lightness: -10%);
+  transition: 0.2s ease-in;
 }
 .light-green.hover-effect:active {
   background-color: $light-green;
+  transition: 0.2s ease-in;
 }
 
 .medium-green.hover-effect:hover {
 	background-color: scale-color($medium-green, $lightness: -10%);
+  transition: 0.2s ease-in;
 }
 .medium-green.hover-effect:active {
   background-color: $medium-green;
+  transition: 0.2s ease-in;
 }
 
 .dark-green.hover-effect:hover {
 	background-color: scale-color($dark-green, $lightness: -10%);
+  transition: 0.2s ease-in;
 }
 .dark-green.hover-effect:active {
   background-color: $dark-green;
+  transition: 0.2s ease-in;
 }
 
 .medium-gray.hover-effect:hover {
 	background-color: scale-color($medium-gray, $lightness: -10%);
+  transition: 0.2s ease-in;
 }
 .medium-gray.hover-effect:active {
   background-color: $medium-gray;
+  transition: 0.2s ease-in;
 }
 
 // (/end) Модификаторы цвета
