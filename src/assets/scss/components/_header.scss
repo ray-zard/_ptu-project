@@ -1,5 +1,13 @@
 .top-bar {
+}
+.top-bar_logo {
+	position: relative;
 	height: 100px;
+	img {
+		@include vertical-center;
+		display: block;
+		padding: 1rem;
+	}
 }
 
 .top-bar-title {
@@ -15,6 +23,7 @@
 		height: 100%;
 		width: 100px;
 		word-spacing: 0;
+		overflow: hidden;
 
 		a {
 			display: block;
@@ -44,6 +53,46 @@
 }
 
 @media screen and (max-width: 800px) {
+	.top-bar_logo {
+		height: 12.5vw;
+	}
 	.menu {
+		height: 12.5vw;
+		li {
+			width: 12.5vw;
+			font-size: 2vw;
+			a {
+				& i {
+					padding-top: 3.5vw;
+					padding-bottom: 1vw;
+					font-size: 4vw;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.top-bar_logo {
+		height: 100%;
+		img {
+			position: relative;
+			transform: none;
+			top: 0;
+		}
+	}
+	.menu {
+		height: 25vw;
+		li {
+			width: 25vw;
+			font-size: 4vw;
+			a {
+				& i {
+					padding-top: 6vw;
+			    padding-bottom: 2vw;
+			    font-size: 10vw;
+				}
+			}
+		}
 	}
 }
