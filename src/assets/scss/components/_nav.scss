@@ -1,0 +1,98 @@
+.top-bar {
+}
+.top-bar_logo {
+	position: relative;
+	height: 100px;
+	img {
+		@include vertical-center;
+		display: block;
+		padding: 1rem;
+	}
+}
+
+.top-bar-title {
+	margin: 1rem;
+}
+
+.menu {
+	height: 100px;
+
+	li {
+		display: inline-block;
+		position: relative;
+		height: 100%;
+		width: 100px;
+		word-spacing: 0;
+		overflow: hidden;
+
+		a {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			padding: 0;
+			color: $white;
+			text-transform: uppercase;
+
+			transition: background-color 0.2s ease-in;
+
+			& i {
+				padding-top: 26px;
+		    padding-bottom: 10px;
+		    font-size: 32px;
+			}
+
+			& img, & i, & svg {
+				margin: 0;
+				display: block;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.top-bar_logo {
+		height: 12.5vw;
+	}
+	.menu {
+		height: 12.5vw;
+		li {
+			width: 12.5vw;
+			font-size: 2vw;
+			a {
+				& i {
+					padding-top: 3.5vw;
+					padding-bottom: 1vw;
+					font-size: 4vw;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 639px) {
+	.top-bar_logo {
+		height: 100%;
+		img {
+			position: relative;
+			transform: none;
+			top: 0;
+		}
+	}
+	.menu {
+		height: 25vw;
+		li {
+			width: 25vw;
+			font-size: 4vw;
+			a {
+				& i {
+					padding-top: 6vw;
+			    padding-bottom: 2vw;
+			    font-size: 10vw;
+				}
+			}
+		}
+	}
+}
