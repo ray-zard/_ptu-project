@@ -28,5 +28,28 @@
 }
 
 .header__callback {
-  
+  padding: 6rem 6rem 0 4rem;
+  form {
+    .log-in-form {
+      background-color: $white;
+      max-width: 36rem;
+      padding: 1rem;
+      .button {
+        font-size: 1em;
+        font-weight: 500;
+        margin: 0;
+      }
+    }
+  }
+}
+.header-form__button {
+  display: inline-block;
+  background-color: $white;
+  font-weight: 500;
+  padding: 0.8rem 1rem;
+  width: 50%;
+  &.light-green {
+    color: $wight;
+    background-color: $light-green;
+  }
 }
