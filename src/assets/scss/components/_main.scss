@@ -66,3 +66,25 @@ $dark-green: #006837;
 }
 
 // (/end) Модификаторы цвета
+
+// Оформбление заколовков секций (.header-section)
+
+.header-section {
+  background-color: $light-gray;
+  position: relative;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.header-section__text {
+  color: $dark-gray;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.header-section__line {
+  background-color: $light-green;
+  height: 4px;
+}
+
+// (/end) Модификаторы цвета

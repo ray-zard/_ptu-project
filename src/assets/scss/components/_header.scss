@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   height: auto;
+  margin-bottom: 2rem;
   img {
     @include absolute-center;
     top: 45%;
@@ -46,6 +47,7 @@
 .header-form__button {
   display: inline-block;
   background-color: $white;
+  color: $dark-gray;
   font-weight: 500;
   padding: 0.8rem 1rem;
   width: 50%;
@@ -125,6 +127,12 @@
     & i {
       display: none;
     }
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .header__text > span {
+    font-size: 0.9em;
   }
 }
 
