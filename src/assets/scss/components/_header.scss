@@ -127,3 +127,34 @@
     }
   }
 }
+
+@media screen and (max-width: 640px) {
+  .header {
+    img {
+      top: 0;
+      transform: translate(-50%, 0%);
+    }
+  }
+  .header__text {
+    padding: 11vw 0;
+    h1 {
+      font-size: 7vw;
+    }
+    & > span {
+      font-size: 4vw;
+    }
+  }
+  .header__callback {
+    padding: 0;
+    form {
+      .log-in-form {
+        max-width: 40rem;
+      }
+    }
+  }
+  .header-form__button {
+    & i {
+      display: block;
+    }
+  }
+}
