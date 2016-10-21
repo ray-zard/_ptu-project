@@ -6,19 +6,26 @@
   color: $dark-gray;
   font-size: 1.2em;
   font-weight: 500;
-  padding: 0.6rem 1rem;
+  padding: 2rem 1rem;
   text-align: center;
   margin: 0;
-  margin-bottom: 1rem;
 }
-
-.grid-item {
+.grid {
   background-color: $light-gray;
-  float: left;
-  height: 50px;
-  border: 2px solid hsla(0, 0%, 0%, 0.4);
-  width: 33.334%;
 }
-.grid-item--width2 {
-  width: 66.666%;
+.grid-sizer,
+.grid-item {
+  background-color: $dark-gray;
+  float: left;
+  height: 12em;
+  margin: 0.9375em;
+  &.large-4 {
+    width: 30.667%;
+  }
+  &.large-8 {
+    width: 66.3%;
+  }
+  &.x-large-4 {
+    height: 26em;
+  }
 }
