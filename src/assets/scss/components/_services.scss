@@ -6,7 +6,7 @@
   color: $dark-gray;
   font-size: 1.2em;
   font-weight: 500;
-  padding: 2rem 1rem;
+  padding: 2rem;
   text-align: center;
   margin: 0;
 }
@@ -18,14 +18,37 @@
   background-color: $dark-gray;
   float: left;
   height: 12em;
-  margin: 0.9375em;
+  margin: 0.9375em 1.32%;
   &.large-4 {
     width: 30.667%;
   }
   &.large-8 {
-    width: 66.3%;
+    width: 63.9%;
   }
   &.x-large-4 {
     height: 26em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-sizer,
+  .grid-item {
+    margin: 0.9375em 1.5%;
+    &.medium-6 {
+      width: 47%;
+    }
+    &.medium-12 {
+      width: 97%;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .grid-sizer,
+  .grid-item {
+    margin: 1vw 2vw;
+    &.small-12 {
+      width: 96vw;
+    }
   }
 }
