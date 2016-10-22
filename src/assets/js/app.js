@@ -2,13 +2,20 @@ $(document).ready(function() {
 
   $(document).foundation();
 
-  $('.grid').isotope({
+  var $grid = $('.grid').isotope({
     // options
     itemSelector: '.grid-item',
     percentPosition: true,
     masonry: {
       columnWidth: '.grid-sizer'
     }
+  });
+
+  $grid.on( 'click', '.grid-item', function() {
+    // change size of item by toggling gigante class
+    $( '.grid-item.x-large-4' ).not(this).removeClass('x-large-4');
+    $(this).toggleClass('x-large-4');
+    $grid.isotope('layout');
   });
 
 });

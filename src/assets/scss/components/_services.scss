@@ -15,30 +15,34 @@
 }
 .grid-sizer,
 .grid-item {
-  background-color: $dark-gray;
+  background-color: $medium-gray;
   float: left;
   height: 12em;
-  margin: 0.9375em 1.32%;
+  margin: 1em;
   &.large-4 {
-    width: 30.667%;
+    width: 23em;
   }
   &.large-8 {
-    width: 63.9%;
+    width: 48em;
   }
   &.x-large-4 {
     height: 26em;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .grid-sizer,
   .grid-item {
+    height: 16em;
     margin: 0.9375em 1.5%;
     &.medium-6 {
       width: 47%;
     }
     &.medium-12 {
       width: 97%;
+    }
+    &.x-large-4 {
+      height: 34em;
     }
   }
 }
