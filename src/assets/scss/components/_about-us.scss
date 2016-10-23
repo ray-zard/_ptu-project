@@ -1,0 +1,70 @@
+.about-us {
+  p {
+    text-align: justify;
+  }
+  color: $dark-gray;
+  margin-bottom: 3rem;
+}
+
+.about-us__plus {
+  text-align: left;
+  img {
+    padding: 4rem 6rem;
+  }
+  a {
+    color: $dark-gray;
+  }
+  h2 {
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+.container-hover {
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  transition: all .25s ease-in;
+  p, h2 {
+    margin-top: 1rem;
+  }
+  .link {
+    text-align: center;
+    margin-bottom: 0;
+    color: $light-green;
+  }
+  &:hover {
+    background-color: $light-silver;
+    transition: all .25s ease-in;
+  }
+}
+
+.about-us__paragraph {
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: $light-silver;
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.about-us__partners {
+  a {
+    margin: 0;
+  }
+  h2 {
+    margin: 0;
+  }
+}
+.partners__logo {
+  padding: 0;
+}
+
+.partners__text {
+  .link {
+    text-align: right;
+  }
+}
