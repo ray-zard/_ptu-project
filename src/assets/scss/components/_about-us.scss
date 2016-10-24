@@ -70,3 +70,22 @@
     text-align: right;
   }
 }
+
+.logo-line {
+  display: block;
+  text-align: center;
+  .logo + .slick-center {
+    background-image: url(../img/logo_line_c.png);
+  }
+  .logo {
+    display: inline-block;
+    width: 192px;
+    height: 192px;
+    margin: 0 15px;
+    transition: 0s;
+    background-image: url(../img/logo_line.png);
+    &:hover {
+      transition: 0s;
+    }
+  }
+}
