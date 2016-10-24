@@ -26,6 +26,7 @@ PATHS:
   sass:
     - "bower_components/foundation-sites/scss"
     - "bower_components/font-awesome/scss"
+    - "bower_components/slick-carousel/slick"
     - "bower_components/motion-ui/src"
   # Paths to JavaScript libraries, which are compined into one file
   javascript:

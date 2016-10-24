@@ -3,6 +3,7 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'slick.scss';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -49,9 +50,11 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+
 @import 'components/fonts';
 @import 'components/main';
 @import 'components/nav';
 @import 'components/header';
 @import 'components/services';
 @import 'components/about-us';
+@import 'components/footer';

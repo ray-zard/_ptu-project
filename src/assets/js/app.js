@@ -18,4 +18,39 @@ $(document).ready(function() {
     $grid.isotope('layout');
   });
 
+
+	$('.logo-line').slick({
+		arrows: false,
+		autoplay: true,
+		speed: 1250,
+	  autoplaySpeed: 1000,
+		infinite: true,
+		centerMode: true,
+		slidesToShow: 5,
+		variableWidth: true,
+		draggable: false,
+		pauseOnFocus: false,
+		pauseOnHover: false,
+		responsive: [
+			{
+			  breakpoint: 1024,
+			  settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '192px',
+				slidesToShow: 3
+			  }
+			},
+			{
+			  breakpoint: 500,
+			  settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '60px',
+				slidesToShow: 3
+			  }
+			}
+		  ]
+	});
+
 });
