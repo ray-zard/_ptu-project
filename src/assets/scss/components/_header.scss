@@ -2,7 +2,6 @@
   position: relative;
   overflow: hidden;
   height: auto;
-  margin-bottom: 3rem;
   img {
     @include absolute-center;
     top: 45%;
@@ -29,6 +28,7 @@
 }
 
 .header__callback {
+  visibility: hidden;
   padding: 6rem 6rem 0 4rem;
   form {
     .log-in-form {

@@ -25,6 +25,9 @@ $dark-green: #006837;
 .dark-gray {
   background-color: $dark-gray;
 }
+.light-silver {
+  background-color: $light-silver;
+}
 
 // (/end) Основные цвета сайта
 
@@ -68,12 +71,12 @@ $dark-green: #006837;
 
 // (/end) Модификаторы цвета
 
-// Оформбление заколовков секций (.header-section)
+// Оформбление заголовков секций (.header-section)
 
 .header-section {
-  background-color: $light-gray;
   position: relative;
   width: 100%;
+  margin-top: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -88,4 +91,4 @@ $dark-green: #006837;
   height: 4px;
 }
 
-// (/end) Модификаторы цвета
+// (/end) Оформбление заголовков секций (.header-section)

@@ -3,16 +3,11 @@
     text-align: justify;
   }
   color: $dark-gray;
-  margin-bottom: 3rem;
 }
 
 .about-us__plus {
-  text-align: left;
   img {
     padding: 4rem 6rem;
-  }
-  a {
-    color: $dark-gray;
   }
   h2 {
     font-weight: 500;
@@ -23,9 +18,13 @@
 }
 
 .container-hover {
+  text-align: left;
   margin-bottom: 1rem;
   padding: 1rem 1.5rem;
   transition: all .25s ease-in;
+  a {
+    color: $dark-gray;
+  }
   p, h2 {
     margin-top: 1rem;
   }
@@ -41,7 +40,6 @@
 }
 
 .about-us__paragraph {
-  margin-bottom: 1rem;
   padding: 1rem 1.5rem;
   background-color: $light-silver;
   p {
@@ -49,6 +47,10 @@
       margin-bottom: 0;
     }
   }
+}
+
+.header-section_bgc {
+  background-color: $light-gray;
 }
 
 .about-us__partners {
