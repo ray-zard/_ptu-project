@@ -29,9 +29,6 @@
         h6 {
           padding: 4px 6px;
           margin-bottom: 0.4em;
-          &:hover {
-            background-color: $medium-green;
-          }
         }
         &:hover {
           color: $white;
@@ -43,9 +40,6 @@
 .footer-top__news {
   li {
     padding: 4px 6px;
-    &:hover {
-      background-color: $medium-green;
-    }
   }
 }
 .footer-bottom {

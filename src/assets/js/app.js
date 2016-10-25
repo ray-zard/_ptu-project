@@ -31,26 +31,6 @@ $(document).ready(function() {
 		draggable: false,
 		pauseOnFocus: false,
 		pauseOnHover: false,
-		responsive: [
-			{
-			  breakpoint: 1024,
-			  settings: {
-				arrows: false,
-				centerMode: true,
-				centerPadding: '192px',
-				slidesToShow: 3
-			  }
-			},
-			{
-			  breakpoint: 500,
-			  settings: {
-				arrows: false,
-				centerMode: true,
-				centerPadding: '60px',
-				slidesToShow: 3
-			  }
-			}
-		  ]
 	});
 
 });

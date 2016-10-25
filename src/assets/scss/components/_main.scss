@@ -78,7 +78,7 @@ $dark-green: #006837;
   width: 100%;
   margin-bottom: 1rem;
   &.sub {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
 
@@ -94,3 +94,7 @@ $dark-green: #006837;
 }
 
 // (/end) Оформбление заголовков секций (.header-section)
+
+.grid, .news-grid {
+  background-color: $light-silver;
+}
