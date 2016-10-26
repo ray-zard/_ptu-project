@@ -1,0 +1,42 @@
+.container-up-scroll {
+  position: fixed;
+  bottom: 31px;
+  right: 38px;
+}
+
+.up-scroll {
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  word-spacing: 0;
+  overflow: hidden;
+  opacity: 0.5;
+  transition: 0.2s ease-in;
+  &:hover {
+    opacity: 1;
+    transition: 0.2s ease-in;
+  }
+  a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in;
+    color: $light-silver;
+    & i {
+      padding-top: 26px;
+      padding-bottom: 10px;
+      font-size: 32px;
+    }
+
+    & img, & i, & svg {
+      margin: 0;
+      display: block;
+    }
+  }
+}
