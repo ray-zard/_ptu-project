@@ -14,7 +14,7 @@ $(document).ready(function() {
   $grid.on( 'click', '.grid-item', function() {
     // change size of item by toggling gigante class
     $( '.grid-item.x-large-4' ).not(this).removeClass('x-large-4');
-    $(this).toggleClass('x-large-4');
+    $(this).addClass('x-large-4');
     $grid.isotope('layout');
   });
 
