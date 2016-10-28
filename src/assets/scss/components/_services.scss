@@ -19,13 +19,21 @@
   height: 12em;
   margin: 1em;
   overflow: hidden;
+  p {
+    display: none;
+  }
+  a {
+    display: none;
+  }
   &.x-large-4 {
-    background-color: $white;
+    background-color: $light-gray;
+    z-index: 100;
     p {
       position: absolute;
       padding: 1rem;
       bottom: 3em;
       z-index: 1000;
+      display: block;
     }
     a{
       position: absolute;
@@ -35,6 +43,7 @@
       right: 0;
       left: 0;
       z-index: 1000;
+      display: block;
     }
     h2 {
       bottom: 224px;
