@@ -26,7 +26,8 @@
   a {
     display: none;
   }
-  &.x-large-4 {
+  &.x-large-4,
+  &.xplarge-8 {
     background-color: $light-gray;
     z-index: 100;
     cursor: default;
@@ -102,12 +103,15 @@
   &.x-large-4 {
     height: 26em;
   }
+  &.x-large-8 {
+    height: 42em;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .grid-sizer,
   .grid-item {
-    height: 16em;
+    height: 12em;
     margin: 0.9375em 1.5%;
     &.medium-6 {
       width: 47%;
@@ -116,7 +120,7 @@
       width: 97%;
     }
     &.x-large-4 {
-      height: 34em;
+      height: 26em;
     }
   }
 }
