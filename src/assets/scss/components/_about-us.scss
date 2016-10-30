@@ -1,5 +1,5 @@
 .about-us, .partners {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   p {
     text-align: justify;
   }
@@ -20,7 +20,7 @@
 
 .container-hover {
   text-align: left;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   padding: 1rem 1.5rem;
   transition: all .25s ease-in;
   a {
@@ -43,6 +43,7 @@
 .about-us__paragraph {
   padding: 1rem 1.5rem;
   background-color: $light-silver;
+  margin-bottom: 3rem;
   p {
     &:last-child {
       margin-bottom: 0;

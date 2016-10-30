@@ -1,5 +1,3 @@
-.footer {
-}
 .footer-top {
   background-color: $light-green;
   color: $light-silver;
@@ -13,6 +11,18 @@
   }
   small {
     color: $light-gray;
+  }
+  .addres {
+    p {
+      margin-bottom: 0.3rem;
+    }
+    .filled-row {
+      background-color: $white;
+      color: $dark-gray;
+      padding: 0.3rem 0.5rem;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
   }
   ul {
     padding: 0;
