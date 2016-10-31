@@ -106,3 +106,9 @@ table tbody tr:nth-child(even) {
 table thead {
   background: $light-gray;
 }
+
+#header-services {
+  .header__text {
+    padding: 4rem 0;
+  }
+}
