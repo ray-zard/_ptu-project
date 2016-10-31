@@ -19,9 +19,9 @@
 }
 
 .container-hover {
+  padding: 0.9375rem;
   text-align: left;
   margin-bottom: 3rem;
-  padding: 1rem 1.5rem;
   transition: all .25s ease-in;
   a {
     color: $dark-gray;
@@ -41,6 +41,7 @@
 }
 
 .about-us__paragraph {
+  display: block;
   padding: 1rem 1.5rem;
   background-color: $light-silver;
   margin-bottom: 3rem;
@@ -55,9 +56,32 @@
   background-color: $light-gray;
 }
 
+.partners__head {
+  a {
+    display: block;
+  }
+  img {
+    margin-right: 0.9375rem;
+    height: 80px;
+  }
+  h5 {
+    margin: 0;
+  }
+}
+.partners__body {
+  .green-link {
+    color: $light-green;
+    text-align: center;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+
 .about-us__partners {
   a {
     margin: 0;
+    display: block;
   }
   h2 {
     margin: 0;
