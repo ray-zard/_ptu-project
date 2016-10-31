@@ -98,3 +98,11 @@ $dark-green: #006837;
 .grid, .news-grid {
   background-color: $light-silver;
 }
+
+table tbody tr:nth-child(even) {
+  background-color: $light-silver;
+}
+
+table thead {
+  background: $light-gray;
+}
