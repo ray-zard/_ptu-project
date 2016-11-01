@@ -112,3 +112,14 @@ table thead {
     padding: 4rem 0;
   }
 }
+
+.error {
+  position: relative;
+  height: 100%;
+  .error-content {
+    @include absolute-center;
+    h1 {
+      color: $light-green;
+    }
+  }
+}
