@@ -1,5 +1,4 @@
 .partners-row {
-  padding: 0;
   display: flex;
   align-items: stretch;
 }
@@ -60,5 +59,14 @@ a.partner-block {
   button {
     margin: 0;
     z-index: 9999;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .partners-row {
+    flex-direction: column;
+  }
+  .partner-block:first-child {
+    margin-bottom: 1rem;
   }
 }

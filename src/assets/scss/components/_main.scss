@@ -127,3 +127,7 @@ table thead {
 .grid-sizer {
   z-index: -1;
 }
+
+:focus {
+  outline: 0;
+}
