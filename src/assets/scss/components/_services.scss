@@ -22,6 +22,7 @@
   cursor: pointer;
   & > ul {
     position: absolute;
+    color: $dark-gray;
     top: 14em;
     z-index: 1000;
     li {

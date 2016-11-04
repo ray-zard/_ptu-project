@@ -61,7 +61,7 @@
 		li {
 			width: 12.5vw;
 			font-size: 2vw;
-			a {
+			.top-bar__button {
 				& i {
 					padding-top: 3.5vw;
 					padding-bottom: 1vw;
@@ -86,7 +86,7 @@
 		li {
 			width: 25vw;
 			font-size: 4vw;
-			a {
+			.top-bar__button {
 				& i {
 					padding-top: 6vw;
 			    padding-bottom: 2vw;
