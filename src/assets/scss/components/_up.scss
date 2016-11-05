@@ -41,3 +41,26 @@
     }
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .up-scroll {
+    width: 60px;
+    height: 60px;
+    a {
+      i {
+        @include absolute-center;
+        padding: 0;
+        font-size: 28px;
+      }
+    }
+    span {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .up-scroll {
+    display: none;
+  }
+}
