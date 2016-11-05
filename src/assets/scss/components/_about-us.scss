@@ -19,6 +19,7 @@
 }
 
 .container-hover {
+  position: relative;
   padding: 0.9375rem;
   text-align: left;
   margin-bottom: 3rem;
@@ -26,7 +27,7 @@
   a {
     color: $dark-gray;
   }
-  p, h2 {
+  p, h2, ul {
     margin-top: 1rem;
   }
   .link {
