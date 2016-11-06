@@ -1,20 +1,33 @@
+.footer {
+  font-size: 14px;
+}
 .footer-top {
-  background-color: $light-green;
-  color: $light-silver;
-  padding: 2rem 0;
+  background-color: $light-silver;
+  color: $medium-gray;
   p, h6 {
     line-height: 1.2;
   }
   h3 {
     font-weight: 500;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.5em;
   }
   small {
     color: $light-gray;
   }
   .addres {
+    padding-top: 1.2em;
+    background-color: $light-green;
+    color: $light-silver;
+    form {
+      .input-group-field {
+        border: 0;
+      }
+      .button {
+        color: $light-silver;
+      }
+    }
     p {
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.6em;
     }
     .filled-row {
       background-color: $white;
@@ -31,7 +44,7 @@
     li {
       list-style-type: none;
       a {
-        color: $light-silver;
+        color: $medium-gray;
         h5, h6 {
           font-weight: 500;
           margin: 0;
@@ -40,16 +53,28 @@
           padding: 4px 6px;
           margin-bottom: 0.4em;
         }
-        &:hover {
-          color: $white;
-        }
       }
     }
   }
 }
 .footer-top__news {
-  li {
-    padding: 4px 6px;
+  padding-top: 1.2em;
+  small {
+    color: $medium-gray;
+  }
+  ul {
+    margin-right: 4em;
+    li {
+      border-top: 1px $light-gray solid;
+      padding: 4px 6px;
+      &:first-child {
+        border-top: none;
+        padding-top: 1px;
+      }
+      p {
+        margin-bottom: 0.5em;
+      }
+    }
   }
 }
 .footer-bottom {

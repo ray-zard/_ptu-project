@@ -51,4 +51,13 @@ $(document).ready(function() {
 		pauseOnHover: false,
 	});
 
+  $('#tagAir').tagcanvas({
+    pulsateTo : 0,
+    textColour : '#f8f8f8', // Цвет текста
+    maxSpeed : 0.03, // Максимальная скорость
+    depth : 0.9, // Глубина. От 0 до 1
+    wheelZoom : 0,
+    weight : true,
+  });
+
 });

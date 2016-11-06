@@ -33,6 +33,15 @@ $dark-green: #185531;
 
 // Модификаторы цвета
 
+.light-silver.hover-effect:hover {
+	background-color: scale-color($light-silver, $lightness: -10%);
+  transition: 0.2s ease-in;
+}
+.light-silver.hover-effect:active {
+  background-color: $light-silver;
+  transition: 0.2s ease-in;
+}
+
 .light-green.hover-effect:hover {
 	background-color: scale-color($light-green, $lightness: -10%);
   transition: 0.2s ease-in;
