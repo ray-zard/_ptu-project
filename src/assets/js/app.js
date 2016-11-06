@@ -52,12 +52,18 @@ $(document).ready(function() {
 	});
 
   $('#tagAir').tagcanvas({
+    activeCursor : 'default',
     pulsateTo : 0,
     textColour : '#f8f8f8', // Цвет текста
-    maxSpeed : 0.03, // Максимальная скорость
     depth : 0.9, // Глубина. От 0 до 1
     wheelZoom : 0,
+    outlineMethod: 'colour',
+    outlineColour: '#f8f8f8',
+    outlineOffset: 0,
+    maxSpeed : 0.025, // Максимальная скорость
     weight : true,
+    initial: [0.100, 0.140],
+    noMouse : true,
   });
 
 });
