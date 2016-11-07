@@ -35,11 +35,23 @@
   </div>
 
   <div class="honors medium-12 columns">
-    <div class="honors__boxy horizontal thumbnail"></div>
-    <div class="honors__boxy thumbnail"></div>
-    <div class="honors__boxy horizontal thumbnail"></div>
+    <a data-open="diploma_1"><img class="honors__boxy horizontal thumbnail" src="assets/img/diploma_2.jpg" alt=""></a>
+    <a data-open="diploma_2"><img class="honors__boxy thumbnail" src="assets/img/diploma_1.jpg" alt=""></a>
   </div>
 
+  <div class="reveal" id="diploma_1" data-reveal>
+    <img src="assets/img/diploma_2.jpg" alt="">
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <div class="reveal" id="diploma_2" data-reveal>
+    <img src="assets/img/diploma_1.jpg" alt="">
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
   <!-- <div class="company-news medium-12 columns">
 
   </div> -->
