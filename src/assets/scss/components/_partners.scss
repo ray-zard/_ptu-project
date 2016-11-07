@@ -63,6 +63,12 @@ a.partner-block {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .partners-row {
+    padding: 0 1rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .partners-row {
     flex-direction: column;
