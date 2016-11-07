@@ -3,9 +3,12 @@
 }
 .footer-top {
   background-color: $light-silver;
-  color: $medium-gray;
-  p, h6 {
+  color: $dark-gray;
+  b, h6 {
     line-height: 1.2;
+  }
+  b {
+    display: block;
   }
   h3 {
     font-weight: 500;
@@ -26,7 +29,7 @@
         color: $light-silver;
       }
     }
-    p {
+    b {
       margin-bottom: 0.6em;
     }
     .filled-row {
@@ -44,7 +47,7 @@
     li {
       list-style-type: none;
       a {
-        color: $medium-gray;
+        color: $dark-gray;
         h5, h6 {
           font-weight: 500;
           margin: 0;
@@ -71,8 +74,17 @@
         border-top: none;
         padding-top: 1px;
       }
+      a {
+        transition: .3s ease-out;
+      }
       p {
         margin-bottom: 0.5em;
+      }
+      &:hover {
+        a {
+          color: $dark-gray;
+          transition: .3s ease-out;
+        }
       }
     }
   }
