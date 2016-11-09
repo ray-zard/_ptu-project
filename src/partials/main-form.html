@@ -1,0 +1,43 @@
+<div class="pages-form medium-12 columns">
+  <h4 class="text-center">Предварительный расчет стоимости утилизации отхода</h4>
+</div>
+
+<div class="medium-6 columns">
+  <span>Вы можете узнать предворительную стоимость утилизации вашего отхода. Расчет стоимости включает в себя сбор, транспортировку и размещение на ОРО.  </span>
+  <br>
+  <br>
+  <span><b>Для предварительного расчета укажите:</b></span>
+  <br>
+  <br>
+  <ul>
+    <li>Наличие паспорта отхода</li>
+    <li>Место расположения отхода</li>
+    <li>Наименование отхода либо номер согласно ФККО</li>
+    <li>Адрес электонной почты на который мы отправим предварительный расчет.</li>
+  </ul>
+</div>
+
+<form>
+
+  <!-- Hidden Required Fields -->
+  <input type="hidden" name="project_name" value="ПромТехУтилизация">
+  <input type="hidden" name="admin_email" value="office@lider-group.pro">
+  <input type="hidden" name="form_subject" value="Форма заявки">
+  <!-- END Hidden Required Fields -->
+
+  <div class="mine-form medium-6 light-silver columns">
+    <legend>Наличие паспорта на отход</legend>
+    <input type="radio" name="Наличие паспорта" value="Паспорт есть" id="pokemonRed" required><label for="pokemonRed">Есть</label>
+    <input type="radio" name="Наличие паспорта" value="Паспорта нет" id="pokemonBlue"><label for="pokemonBlue">Нет</label>
+    <label>Место расположения отхода
+      <input type="text" name="Город" placeholder="город">
+    </label>
+    <label>Наименование отхода
+      <input type="text" name="Наименование отхода" placeholder="название отхода / номер ФККО">
+    </label>
+    <label>E-mail
+      <input type="text" name="E-mail" placeholder="адрес электронной почты">
+    </label>
+    <button class="button" href="#">Получить предварительный расчет</button>
+  </div>
+</form>
