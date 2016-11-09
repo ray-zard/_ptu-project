@@ -18,18 +18,25 @@
   </div>
 
   <form>
+
+    <!-- Hidden Required Fields -->
+    <input type="hidden" name="project_name" value="ПромТехУтилизация">
+    <input type="hidden" name="admin_email" value="office@lider-group.pro">
+    <input type="hidden" name="form_subject" value="Форма заявки">
+    <!-- END Hidden Required Fields -->
+
     <div class="medium-6 light-silver columns">
       <legend>Наличие паспорта на отход</legend>
-      <input type="radio" name="pokemon" value="Red" id="pokemonRed" required><label for="pokemonRed">Есть</label>
-      <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Нет</label>
+      <input type="radio" name="pokemon" value="Паспорт есть" id="pokemonRed" required><label for="pokemonRed">Есть</label>
+      <input type="radio" name="pokemon" value="Паспорта нет" id="pokemonBlue"><label for="pokemonBlue">Нет</label>
       <label>Место расположения отхода
-        <input type="text" placeholder="город">
+        <input type="text" name="Город" placeholder="город">
       </label>
       <label>Наименование отхода
-        <input type="text" placeholder="название отхода / номер ФККО">
+        <input type="text" name="Наименование отхода" placeholder="название отхода / номер ФККО">
       </label>
       <label>E-mail
-        <input type="text" placeholder="адрес электронной почты">
+        <input type="text" name="E-mail" placeholder="адрес электронной почты">
       </label>
       <button class="button" href="#">Получить предварительный расчет</button>
     </div>

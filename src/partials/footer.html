@@ -83,13 +83,21 @@
         <p>Подпишитесь, чтобы своевременно получать новости и изменения законодательства в сфере обращения с промышленными отходами. </p>
 
 
-        <form action="#">
+        <form>
+
+          <!-- Hidden Required Fields -->
+          <input type="hidden" name="project_name" value="ПромТехУтилизация">
+          <input type="hidden" name="admin_email" value="office@lider-group.pro">
+          <input type="hidden" name="form_subject" value="Форма подписки">
+          <!-- END Hidden Required Fields -->
+
           <div class="input-group">
             <input class="input-group-field" type="text" placeholder="Ваш E-mail">
             <div class="input-group-button">
               <input type="submit" class="button medium-gray hover-effect" value="Подписаться">
             </div>
           </div>
+
         </form>
 
       </div>
