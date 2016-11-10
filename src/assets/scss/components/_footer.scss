@@ -47,6 +47,7 @@
     li {
       list-style-type: none;
       a {
+        display: block;
         color: $dark-gray;
         h5, h6 {
           font-weight: 500;

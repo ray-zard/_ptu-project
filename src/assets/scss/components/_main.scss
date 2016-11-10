@@ -3,8 +3,11 @@
 
 $wight: #fff;
 $light-silver: #f8f8f8;
-$light-green: #008637;
-$medium-green: #186B35;
+// $light-green: #0b7a33;
+// $medium-green: #085b26;
+// $dark-green: #053c19;
+$light-green: #399736;
+$medium-green: #017e39;
 $dark-green: #185531;
 
 .light-green {
@@ -140,4 +143,13 @@ table thead {
 
 :focus {
   outline: 0;
+}
+
+.button {
+  border: none;
+  padding: 0.9em 1em;
+}
+
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+  box-shadow: none;
 }
