@@ -57,6 +57,15 @@ a.partner-block {
   height: 100%;
   padding: 1rem;
   transition: .3s ease-out;
+  ul {
+    li {
+      text-align: left;
+      margin-top: 1rem;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
   button {
     margin: 0;
     z-index: 9999;
