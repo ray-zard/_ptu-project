@@ -14,7 +14,7 @@
 .grid-sizer,
 .grid-item {
   position: relative;
-  background-color: $medium-gray;
+  background-color: $white;
   float: left;
   height: 12em;
   margin: 1em;
@@ -77,7 +77,7 @@
   }
   &.x-large-4,
   &.x-large-8 {
-    background-color: $light-gray;
+    background-color: $white;
     z-index: 100;
     cursor: default;
     p {

@@ -2,8 +2,7 @@
   position: relative;
   overflow: hidden;
   height: auto;
-  margin-bottom: 3rem;
-  img {
+  .header-bg {
     @include absolute-center;
     top: 45%;
     width: 100%;
@@ -14,9 +13,44 @@
   }
 }
 
+.icons {
+  border: 1px $light-gray solid;
+  border-right: 0;
+  margin-bottom: 3rem;
+
+  .icon-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .icon-text {
+    border-right: 1px $light-gray solid;
+    background-color: $light-silver;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+
+    h2 {
+      color: $dark-gray;
+      margin: 0;
+      // padding: 2.2rem 0;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  }
+
+  .icon {
+    width: 6rem;
+    border-right: 1px $light-gray solid;
+    padding: 1rem;
+  }
+}
+
 .header__text {
   color: $white;
-  padding: 6rem 0;
+  padding: 8rem 0;
   h1 {
     text-transform: uppercase;
     margin: 0;
@@ -46,6 +80,10 @@
       }
     }
   }
+}
+
+.show-for-medium {
+  padding-top: 3rem;
 }
 
 .header-form__button {
