@@ -4,6 +4,8 @@
 @import 'foundation';
 @import 'motion-ui';
 @import 'slick.scss';
+@import 'slick-theme.scss';
+@import 'main.scss';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -63,3 +65,4 @@
 @import 'components/pages';
 @import 'components/partners';
 @import 'components/company';
+@import 'components/news-page';

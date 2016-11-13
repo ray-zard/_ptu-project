@@ -19,7 +19,8 @@
     "motion-ui": "~1.2.2",
     "font-awesome": "fontawesome#^4.6.3",
     "isotope": "^3.0.1",
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "^1.6.0",
+    "magnific-popup": "^1.1.0"
   },
   "private": true
 }

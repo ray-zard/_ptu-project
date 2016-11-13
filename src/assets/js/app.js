@@ -83,4 +83,20 @@ $(document).ready(function() {
 		return false;
 	});
 
+  $('.news-galery, .honors').each(function() { // the containers for all your galleries
+    $(this).magnificPopup({
+      delegate: 'a', // the selector for gallery item
+      type: 'image',
+      gallery: {
+        enabled:true
+      }
+    });
+  })
+
+  $('.news-galery').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  });
+
 });
