@@ -11,22 +11,6 @@ $(document).ready(function() {
     }
   });
 
-  $grid.on( 'click', '.grid-item', function() {
-
-    // change size of item by toggling gigante class
-    if ( $(this).hasClass('large-4') ) {
-      $( '.grid-item.x-large-4' ).not(this).removeClass('x-large-4 x-large-8');
-      $( '.grid-item.large-12' ).not(this).removeClass('x-large-8 large-12').addClass('large-8');
-      $(this).addClass('x-large-4');
-    }
-    else {
-      $( '.grid-item.large-8' ).not(this).removeClass('large-8');
-      $( '.grid-item.x-large-4' ).not(this).removeClass('x-large-4');
-      $(this).addClass('x-large-8 large-12').removeClass('large-8');
-    }
-    $grid.isotope('layout');
-  });
-
   var $newsGrid = $('.news-grid').isotope({
     // options
     itemSelector: '.news-grid-item',
