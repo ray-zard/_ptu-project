@@ -83,4 +83,11 @@ $(document).ready(function() {
     slidesToScroll: 3
   });
 
+  $('.partner-block__content').ready(function() {
+    $('.expand').click(function() {
+      $('.partner-block__content').css('height', '100%');
+      $('.expand').hide();
+    });
+  });
+
 });
