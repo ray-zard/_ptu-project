@@ -1,0 +1,40 @@
+.lgng {
+  .ng-png {
+    position: relative;
+    img {
+      @include horizontal-center;
+    }
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .lgng {
+    .ng-png {
+      img {
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 791px) {
+  .lgng {
+    .ng-png {
+      img {
+        width: auto;
+        left: 74%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .lgng {
+    .ng-png {
+      img {
+        width: auto;
+        left: 90%;
+      }
+    }
+  }
+}
