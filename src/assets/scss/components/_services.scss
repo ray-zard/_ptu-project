@@ -75,7 +75,7 @@
       transition: 0.3s ease-out;
     }
   }
-  
+
   &.x-large-8 {
     background-color: $white;
     z-index: 100;
@@ -170,7 +170,7 @@
     height: 26em;
   }
   &.x-large-8 {
-    height: 42.5rem;;
+    height: 42.5rem;
   }
 }
 
@@ -195,6 +195,22 @@
   .grid-sizer,
   .grid-item {
     margin: 1vw 2vw;
+    &.x-large-8 {
+      height: 175vh;
+    }
+    &.small-12 {
+      width: 96vw;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .grid-sizer,
+  .grid-item {
+    margin: 1vw 2vw;
+    &.x-large-8 {
+      height: 200vh;
+    }
     &.small-12 {
       width: 96vw;
     }
