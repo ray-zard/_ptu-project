@@ -150,6 +150,17 @@ table thead {
   padding: 0.9em 1em;
 }
 
+p, li {
+  a {
+    font-weight: 400;
+    color: $medium-green;
+    &:hover {
+      color: $light-green;
+      text-decoration: underline;
+    }
+  }
+}
+
 [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
   box-shadow: none;
 }
