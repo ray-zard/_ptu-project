@@ -1,6 +1,93 @@
 .services {
   margin-bottom: 3rem;
 }
+
+.services__block {
+  background-color: $light-silver;
+  padding: 0 0.5rem;
+}
+.service__box {
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+
+  .wrapper {
+    transition: .3s ease-in;
+    &:hover {
+      box-shadow: 0 0 6px 1px rgba(128, 128, 128, 0.5);
+      transition: .3s ease-out;
+    }
+  }
+
+  &:hover {
+    .service__box-head {
+      img {
+        transform: scale(1.03);
+        filter: grayscale(100%);
+        transition: .3s ease-out;
+      }
+    }
+
+    h5 {
+      &::after {
+        width: 100%;
+        transition: .3s ease-in;
+      }
+    }
+  }
+}
+.service__box-head {
+  background: $white;
+  position: relative;
+  overflow: hidden;
+  height: 12rem;
+  img {
+    transform: scale(1);
+    filter: grayscale(0%);
+    transition: .3s ease-out;
+    height: 100%;
+  }
+}
+.service__box-content {
+  padding: 0.5rem;
+  background: $white;
+  height: 12rem;
+  &.price {
+    padding: 0;
+    background: $wight;
+    height: 100%;
+    h4 {
+      margin: 2rem 0;
+    }
+  }
+  p {
+    text-align: center;
+    color: $dark-gray;
+  }
+  h5 {
+    text-align: center;
+    position: relative;
+    color: $black;
+      margin-bottom: 1.7rem;
+    &::before {
+      @include absolute-center;
+      background-color: $light-silver;
+      content: "";
+      width: 100%;
+      height: 2px;
+      top: 120%;
+    }
+    &::after {
+      @include absolute-center;
+      background-color: $light-green;
+      content: "";
+      width: 0%;
+      height: 2px;
+      top: 120%;
+      transition: .3s ease-in;
+    }
+  }
+}
+
 .services__main-text {
   background-color: $light-silver;
   color: $dark-gray;

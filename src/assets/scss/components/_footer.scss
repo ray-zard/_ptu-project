@@ -98,3 +98,11 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .footer-top__news {
+    ul {
+      margin-right: 0;
+    }
+  }
+}
