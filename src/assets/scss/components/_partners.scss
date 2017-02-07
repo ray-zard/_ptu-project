@@ -98,17 +98,6 @@
   }
 }
 
-.logo-line {
-  .logo {
-    transform: scale(.8);
-    transition: .5s ease-out;
-  }
-  .logo.slick-center {
-    transform: scale(1);
-    transition: .5s ease-out;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .partners-row {
     padding: 0 1rem;
