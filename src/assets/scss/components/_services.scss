@@ -37,8 +37,7 @@
         transition: .3s ease-out;
       }
     }
-
-    h5 {
+    .service__box-content {
       &::after {
         width: 100%;
         transition: .3s ease-in;
@@ -62,7 +61,25 @@
 }
 .service__box-content {
   padding: 0.5rem;
+  position: relative;
   background: $white;
+  &::before {
+    @include absolute-center;
+    background-color: $light-silver;
+    content: "";
+    width: 100%;
+    height: 2px;
+    top: 1px;
+  }
+  &::after {
+    @include absolute-center;
+    background-color: $light-green;
+    content: "";
+    width: 0%;
+    height: 2px;
+    top: 1px;
+    transition: .3s ease-in;
+  }
   &.price {
     background: $wight;
     height: 100%;
@@ -86,26 +103,7 @@
   }
   h5 {
     text-align: center;
-    position: relative;
     color: $black;
-      margin-bottom: 0.7rem;
-    &::before {
-      @include absolute-center;
-      background-color: $light-silver;
-      content: "";
-      width: 100%;
-      height: 2px;
-      top: 120%;
-    }
-    &::after {
-      @include absolute-center;
-      background-color: $light-green;
-      content: "";
-      width: 0%;
-      height: 2px;
-      top: 120%;
-      transition: .3s ease-in;
-    }
   }
 }
 
@@ -297,6 +295,20 @@
       height: 26em;
     }
   }
+}
+
+@media screen and (max-width: 1106px) {
+
+  .service__box-content {
+    height: 7rem;
+    position: relative;
+    h5 {
+      @include vertical-center;
+      left: 0.5rem;
+      right: 0.5rem;
+    }
+  }
+
 }
 
 @media screen and (max-width: 640px) {

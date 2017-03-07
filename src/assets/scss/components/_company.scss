@@ -1,26 +1,22 @@
 .honors {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  a {
+    position: relative;
+    height: 300px;
 
-.honors__boxy {
-  display: inline-block;
-  background-color: $light-gray;
-  width: 210px;
-  height: 297px;
-  margin: 0 1rem;
+    .honors__boxy {
+      @include absolute-center;
+      background-color: $light-gray;
+      max-height: 297px;
 
-  &.horizontal {
-    height: 210px;
-    width: 297px;
+      &.horizontal {
+        max-width: 230px;
+        height: auto;
+      }
+
+      &.thumbnail:hover {
+        box-shadow: 0 0 6px 1px rgba(128, 128, 128, 0.5);
+      }
+    }
+
   }
-
-  &.thumbnail:hover {
-    box-shadow: 0 0 6px 1px rgba(128, 128, 128, 0.5);
-  }
-}
-
-.company-news {
-  
 }

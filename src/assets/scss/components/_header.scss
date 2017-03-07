@@ -143,6 +143,16 @@
   }
 }
 
+@media screen and (max-width: 888px) {
+  .icons {
+    .icon-text {
+      h2 {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 921px) {
   .header-form__button {
     & i {

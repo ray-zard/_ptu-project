@@ -97,3 +97,27 @@
     text-align: right;
   }
 }
+
+@media screen and (max-width: 1044px) {
+  .about-us__plus {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 853px) {
+  .about-us__plus {
+    h2 {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .about-us__plus {
+    h2 {
+      font-size: 2.2rem;
+    }
+  }
+}

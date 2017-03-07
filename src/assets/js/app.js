@@ -20,6 +20,23 @@ $(document).ready(function() {
     }
   });
 
+  $('.honors').slick({
+    slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 780,
+        settings: {
+          slidesToShow: 1
+        }
+      },
+    ]
+  });
 
 	$('.logo-line').slick({
 		arrows: false,
