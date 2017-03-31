@@ -6,7 +6,7 @@
     .honors__boxy {
       @include absolute-center;
       background-color: $light-gray;
-      max-height: 297px;
+      max-height: 250px;
 
       &.horizontal {
         max-width: 230px;

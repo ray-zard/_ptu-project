@@ -21,6 +21,7 @@ $(document).ready(function() {
   });
 
   $('.honors').slick({
+    autoplay: true,
     slidesToShow: 4,
     responsive: [
       {
