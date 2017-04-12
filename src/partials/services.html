@@ -76,10 +76,12 @@
       </a>
 
       <div id="price" class="service__box full-width small-12 columns">
-        <div class="service__box-head">
-          <img src="assets/img/services/s_price.png" alt="">
-        </div>
+
         <div class="service__box-content price">
+
+          <div class="service__box-head">
+            <img src="assets/img/services/s_price.png" alt="">
+          </div>
 
           <div class="row">
 
@@ -87,43 +89,54 @@
               <h4>Предварительный расчет стоимости утилизации отхода</h4>
             </div>
             <div class="medium-6 columns">
-              <span>Вы можете узнать предварительную стоимость утилизации вашего отхода. Расчет стоимости включает в себя сбор, транспортировку и размещение на ОРО.  </span>
-              <br>
-              <br>
-              <b>Для предварительного расчета укажите:</b>
-              <br>
-              <br>
-              <ul>
-                <li>Наличие паспорта на отход</li>
-                <li>Место расположения отхода</li>
-                <li>Наименование отхода либо код согласно ФККО</li>
-                <li>Адрес электонной почты на который мы отправим предварительный&nbsp;расчет.</li>
-              </ul>
+              <row>
+                <div class="small-11 small-centered colunms">
+                  <span>Вы можете узнать предварительную стоимость утилизации вашего отхода. Расчет стоимости включает в себя сбор, транспортировку и размещение на ОРО.  </span>
+                  <br>
+                  <br>
+                  <b>Для предварительного расчета укажите:</b>
+                  <br>
+                  <br>
+                  <ul>
+                    <li>Наличие паспорта на отход</li>
+                    <li>Место расположения отхода</li>
+                    <li>Наименование отхода либо код согласно ФККО</li>
+                    <li>Адрес электонной почты на который мы отправим предварительный&nbsp;расчет.</li>
+                  </ul>
+                </div>
+              </row>
             </div>
 
-            <form class="medium-6 light-silver columns form">
+            <form class="medium-6 columns" style="padding-bottom: 2rem;">
 
-              <!-- Hidden Required Fields -->
-              <input type="hidden" name="project_name" value="ПромТехУтилизация">
-              <input type="hidden" name="admin_email" value="office@lider-group.pro">
-              <input type="hidden" name="form_subject" value="Форма заявки">
-              <!-- END Hidden Required Fields -->
+              <row>
 
-              <div>
-                <legend>Наличие паспорта на отход</legend>
-                <input type="radio" name="Наличие паспорта" value="Паспорт есть" id="pokemonRed" required><label for="pokemonRed">Есть</label>
-                <input type="radio" name="Наличие паспорта" value="Паспорта нет" id="pokemonBlue"><label for="pokemonBlue">Нет</label>
-                <label>Место расположения отхода
-                  <input type="text" name="Город" placeholder="город">
-                </label>
-                <label>Наименование отхода
-                  <input type="text" name="Наименование отхода" placeholder="наименование отхода / код согласно ФККО">
-                </label>
-                <label>E-mail
-                  <input type="text" name="E-mail" placeholder="адрес электронной почты">
-                </label>
-                <button class="button" href="#">Получить предварительный расчет</button>
-              </div>
+                <div class="light-silver form small-11 small-centered colunms">
+
+                  <!-- Hidden Required Fields -->
+                  <input type="hidden" name="project_name" value="ПромТехУтилизация">
+                  <input type="hidden" name="admin_email" value="office@lider-group.pro">
+                  <input type="hidden" name="form_subject" value="Форма заявки">
+                  <!-- END Hidden Required Fields -->
+
+                  <div>
+                    <legend>Наличие паспорта на отход</legend>
+                    <input type="radio" name="Наличие паспорта" value="Паспорт есть" id="pokemonRed" required><label for="pokemonRed">Есть</label>
+                    <input type="radio" name="Наличие паспорта" value="Паспорта нет" id="pokemonBlue"><label for="pokemonBlue">Нет</label>
+                    <label>Место расположения отхода
+                      <input type="text" name="Город" placeholder="город">
+                    </label>
+                    <label>Наименование отхода
+                      <input type="text" name="Наименование отхода" placeholder="наименование отхода / код согласно ФККО">
+                    </label>
+                    <label>E-mail
+                      <input type="text" name="E-mail" placeholder="адрес электронной почты">
+                    </label>
+                    <button class="button" href="#">Получить предварительный расчет</button>
+                  </div>
+
+                </div>
+              </row>
 
             </form>
 
