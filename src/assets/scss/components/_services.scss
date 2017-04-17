@@ -81,6 +81,7 @@
     transition: .3s ease-in;
   }
   &.price {
+    border: 4px solid $light-green;
     background: $wight;
     height: 100%;
     padding-bottom: 0;

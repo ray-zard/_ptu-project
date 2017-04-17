@@ -54,12 +54,13 @@ a.news-grid-item {
   }
 
   .img-h-news {
-    @include absolute-center;
+    @include horizontal-center;
+    width: 100%;
+    height: auto;
   }
 
   &.horizontal {
     .img-h-news {
-      height: 100%;
       max-width: 1000%;
     }
   }
