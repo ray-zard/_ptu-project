@@ -10,6 +10,15 @@ $light-green: #399736;
 $medium-green: #017e39;
 $dark-green: #185531;
 
+// Основные классы наследования
+
+%imgcover {
+  display: block;
+  object-fit: cover;
+}
+
+//  / end / Основные классы наследования
+
 .light-green {
   background-color: $light-green;
 }
@@ -106,6 +115,11 @@ $dark-green: #185531;
 }
 
 // (/end) Оформбление заголовков секций (.header-section)
+
+table {
+  display: block;
+  overflow-x: scroll;
+}
 
 .grid, .news-grid {
   background-color: $light-silver;
