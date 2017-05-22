@@ -116,7 +116,7 @@ $dark-green: #185531;
 
 // (/end) Оформбление заголовков секций (.header-section)
 
-table {
+table.table-scroll {
   display: block;
   overflow-x: scroll;
 }
