@@ -39,33 +39,15 @@ $(document).ready(function() {
     ]
   });
 
-  // $('.logo-line').ready(function() {
-  //
-  //   var lengthLogo = $('.logo-line').children();
-  //   var objectPosition = 0;
-  //
-  //
-  //   for (var i = 1; i <= lengthLogo; i++) {
-  //
-  //     // $('.logo').css('object-position', (objectPosition + 'px').next());
-  //     objectPosition = objectPosition - 192;
-  //
-  //   };
-  //
-  //   console.log(lengthLogo);
-  //
-  // });
-
 $(function() {
 
   $('.logo-line').children().each(function(index) {
 
     var objectPosition = 0;
-    var i;
 
-    for (i = 0; i <= index; i++) {
+    for (var i = 0; i <= index; i++) {
       $(this).css('object-position', (objectPosition + 'px'));
-      objectPosition = objectPosition - 192;
+      objectPosition -= 192;
     };
 
   });
