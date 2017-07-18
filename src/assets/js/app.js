@@ -39,13 +39,13 @@ $(document).ready(function() {
     ]
   });
 
-$(function() {
+$('#clients').ready(function() {
 
   $('.logo-line').children().each(function(index) {
 
-    var objectPosition = 0;
+    let objectPosition = 0;
 
-    for (var i = 0; i <= index; i++) {
+    for (let i = 0; i <= index; i++) {
       $(this).css('object-position', (objectPosition + 'px'));
       objectPosition -= 192;
     };
