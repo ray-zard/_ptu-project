@@ -7,13 +7,22 @@
     position: relative;
     height: 525px;
     padding: 0;
+    @media screen and (max-width: 1024px) {
+      height: 480px;
+    }
+    @media screen and (max-width: 886px) {
+      height: 356px;
+    }
   }
   
   &__cities-canvas {
     position: absolute;
     @include vertical-center;
-    right: -30%;
+    @media screen and (max-width: 886px) {
+      right: -50vh;
+    }
   }
+  
 }
 
 .header-bg {
@@ -219,7 +228,7 @@
 
 @media screen and (max-width: 640px) {
   .header__text {
-    padding: 50vw 0;
+    padding: 20vw 0;
     h1 {
       font-size: 7vw;
     }
