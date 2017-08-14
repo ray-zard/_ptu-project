@@ -2,8 +2,17 @@
   position: relative;
   overflow: hidden;
   height: auto;
-  canvas {
-    margin-left: 150px;
+
+  &__cities {
+    position: relative;
+    height: 525px;
+    padding: 0;
+  }
+  
+  &__cities-canvas {
+    position: absolute;
+    @include vertical-center;
+    right: -30%;
   }
 }
 
