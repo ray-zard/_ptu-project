@@ -38,6 +38,12 @@
       padding: 0.3rem 0.5rem;
       display: block;
       margin-bottom: 0.5rem;
+      &.href {
+        color: #0000FF;
+        &:hover {
+          color: lighten(#0000FF, 30%);
+        }
+      }
     }
   }
   ul {
